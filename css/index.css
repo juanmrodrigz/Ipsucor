@@ -274,7 +274,7 @@ input, textarea {
         flex-direction: column;
         gap: 1rem;
         padding: 1rem;
-        font-size: 0.9em;
+        font-size: 1em;
     }
     header .header__logo {
         display: flex;
@@ -294,13 +294,15 @@ input, textarea {
     }
 
     main {
-        font-size: 1em;
+        display: block;
+        font-size: 1.2em;
     }
     main .container__welcome {
         text-align: center;
     }
-    h1 {
-        font-size: 1.25em;
+    .container__h1 h1 {
+        text-align: center;
+        font-size: 1.2em;
     }
     h2 {
         font-size: 1.1em;
@@ -316,6 +318,22 @@ input, textarea {
     justify-content: center;
     }
 
+    /* NOSOTROS */
+    .container__presentacion {
+        display: block;
+    }
+    .container__presentacion img {
+        max-width: 100%;
+    }
+
+    /* SERVICIOS */
+    .services__description {
+      display: block;
+    }
+    .services__description img {
+    width: 100%;
+    }   
+    
     /* CONTACTO */
     .container__contactForm {
         grid-column: 1/10;
